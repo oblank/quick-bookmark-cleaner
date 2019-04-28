@@ -1,7 +1,7 @@
 #!/bin/bash
 
 extension=${PWD##*/}
-dir=~/desktop/$extension
+dir=${PWD}/build/$extension
 
 cd src
 zip -r $dir.zip .
